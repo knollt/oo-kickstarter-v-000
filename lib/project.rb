@@ -11,5 +11,5 @@ class Project
     @backers << backer
     backer.project << self
   end
-  
+
 end
