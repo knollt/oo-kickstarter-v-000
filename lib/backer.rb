@@ -7,8 +7,8 @@ class Backer
   end
 
   def back_project(project)
-    @backed_projects << project
-    project.backers << self
+    @backed_projects << project #tells backer class about the project
+    project.backers << self #tell project class about the backer just gained
   end
 
 end
